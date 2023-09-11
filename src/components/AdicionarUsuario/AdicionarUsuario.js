@@ -7,8 +7,8 @@ class AdicionarUsuario extends Component {
   constructor(props) {
     super(props)
 
-    this.state = { 
-      usuario: { nome: '', sobrenome: '', email: '' } 
+    this.state = {
+      usuario: { nome: '', sobrenome: '', email: '' }
     }
 
     this.onChangeHandler = this.onChangeHandler.bind(this)
@@ -30,6 +30,7 @@ class AdicionarUsuario extends Component {
   }
 
   render() {
+
     return (
       <div className="AdicionarUsuario">
         <h2>Adicionar Usuário</h2>
@@ -76,5 +77,4 @@ class AdicionarUsuario extends Component {
     )
   }
 }
-
 export default AdicionarUsuario
